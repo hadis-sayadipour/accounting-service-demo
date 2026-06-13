@@ -36,3 +36,19 @@ This project demonstrates a service-oriented backend architecture with support f
 ## Disclaimer
 
 This repository is a simplified demonstration project based on enterprise-level accounting concepts. Sensitive business logic and proprietary company information have been removed.
+
+
+
+
+
+Client
+   |
+ REST API
+   |
+Accounting Service
+   |
+-------------------
+|        |        |
+SQL    Mongo   RabbitMQ
+
+
